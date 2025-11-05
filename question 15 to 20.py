@@ -81,7 +81,7 @@ else:
 # Deduct personal relief
 payee -= personal_relief
 
-# Prevent negative PAYE
+# Prevent negative PAYEE
 if payee < 0:
     payee = 0
 # ----------------------------------------------------------------------------------------------------------------------END OF QUESTION 19----------------------------------------------
