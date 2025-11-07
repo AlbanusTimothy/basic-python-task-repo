@@ -43,7 +43,7 @@ def calculate_nssf(gross_salary):
     if gross_salary >= 18000:
         nssf = 0.06 * gross_salary
     else:
-        nssf = 0
+        nssf = 1080
     return nssf
 
 
